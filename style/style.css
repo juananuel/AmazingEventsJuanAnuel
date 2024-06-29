@@ -2,13 +2,13 @@
   background-color: rgba(0, 0, 0, .5);
 }
 
+.footer{
+  background-color: rgba(0, 0, 0, .6);
+}
+
 .rrss-img:hover{
   transform: scale(1.05);
   transition: .2s linear;
-}
-
-.footer{
-  background-color: rgba(0, 0, 0, .6);
 }
 
 .c-link{
@@ -37,4 +37,7 @@
 .detail-p{
   margin: auto 0;
 }
+
+/*  upcoming events  */
+
 
