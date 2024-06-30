@@ -56,16 +56,29 @@ body{
 }
 
 .contact-h2{
-  padding: 50px 0px 10px;
+  padding: 50px 0px 0px;
   font-family: "Indie Flower", cursive;
   font-weight: 600;
   color: #005;
 }
 
-.btn{
-  
-}
-
 /*  stats  */
 
+.stats-h2{
+  padding: 50px 0px 0px;
+  font-family: "Indie Flower", cursive;
+  font-weight: 600;
+  color: #005;
+}
 
+.table{
+  max-width: 1200px;
+}
+
+th, td{
+  border: 1px solid black;
+}
+
+td{
+  height: 40px;
+}
