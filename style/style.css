@@ -46,6 +46,7 @@ body{
 
 /*  upcoming events  */
 /*  past events  */
+
 /*  contact  */
 
 .contact__form{
@@ -81,4 +82,15 @@ th, td{
 
 td{
   height: 40px;
+}
+
+/*  details  */
+
+.details-div{
+  width: 600px;
+  height: 400px;
+  background-color: blueviolet;
+
+  margin-top: 50px;
+  gap: 5px;
 }
