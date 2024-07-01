@@ -89,7 +89,8 @@ td{
 .details-div{
   width: 600px;
   height: 400px;
-  background-color: blueviolet;
+  border: 2px solid blueviolet;
+  border-radius: 5px;
 
   margin-top: 50px;
   gap: 5px;
