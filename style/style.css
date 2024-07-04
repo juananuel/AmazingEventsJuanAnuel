@@ -53,10 +53,6 @@ body{
   text-align: justify;
 }
 
-.price-a{
-  
-}
-
 /*  upcoming events  */
 /*  past events  */
 
@@ -122,6 +118,5 @@ td{
 
 .details-data p{
   font-size: 1.2rem;
-  font-weight: bold;
-  text-align: center;
+
 }
