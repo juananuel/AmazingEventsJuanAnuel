@@ -15,18 +15,32 @@
 
     <header class="header">
 
-      <nav class="navbar d-flex flex-column flex-md-row justify-content-between align-items-center p-4 fixed-top">
-        <a href="../index.html" class="">
-          <img src="../img/amazing_brand.png" alt="a-events" width="150">
-        </a> 
-  
-        <ul class="nav nav-pills flex-column flex-md-row align-items-center gap-1">
-          <li class="nav-item"><a href="../index.html" class="c-link link-light bg-gradient link-offset-2 link-underline-opacity-10 link-underline-opacity-100-hover bg-gradient mx-2" aria-current="page">Home</a></li>
-          <li class="nav-item"><a href="./upcomingEvents.html" class="c-link link-light bg-gradient link-offset-2 link-underline-opacity-10 link-underline-opacity-100-hover mx-2">Upcoming Events</a></li>
-          <li class="nav-item"><a href="./pastEvents.html" class="c-link link-light bg-gradient link-offset-2 link-underline-opacity-10 link-underline-opacity-100-hover mx-2">Past Events</a></li>
-          <li class="nav-item"><a href="./contact.html" class="c-link link-light bg-gradient link-offset-2 link-underline-opacity-10 link-underline-opacity-100-hover mx-2">Contact</a></li>
-          <li class="nav-item"><a href="./stats.html" class="c-link link-light bg-gradient link-offset-2 link-underline-opacity-10 link-underline-opacity-100-hover mx-2">Stats</a></li>
-        </ul>
+      <nav class="d-flex navbar navbar-expand-lg p-4 fixed-top" data-bs-theme="dark">
+
+        <div class="">
+
+          <a href="../index.html" class="">
+            <img src="../img/amazing_brand.png" alt="a-events" width="150">
+          </a> 
+
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+
+          <ul class="nav nav-pills flex-column flex-md-row align-items-center justify-content-center gap-1">
+            <li class="nav-item"><a href="../index.html" class="c-link link-light bg-gradient link-offset-2 link-underline-opacity-10 link-underline-opacity-100-hover bg-gradient mx-2" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="../pages/upcomingEvents.html" class="c-link link-light bg-gradient link-offset-2 link-underline-opacity-10 link-underline-opacity-100-hover mx-2">Upcoming Events</a></li>
+            <li class="nav-item"><a href="../pages/pastEvents.html" class="c-link link-light bg-gradient link-offset-2 link-underline-opacity-10 link-underline-opacity-100-hover mx-2">Past Events</a></li>
+            <li class="nav-item"><a href="../pages/contact.html" class="c-link link-light bg-gradient link-offset-2 link-underline-opacity-10 link-underline-opacity-100-hover mx-2">Contact</a></li>
+            <li class="nav-item"><a href="../pages/stats.html" class="c-link link-light bg-gradient link-offset-2 link-underline-opacity-10 link-underline-opacity-100-hover mx-2">Stats</a></li>
+          </ul>
+
+        </div>
+
       </nav>
 
     </header>
@@ -110,13 +124,13 @@
       <div class="cards d-flex flex-column align-items-center justify-content-evenly gap-4 flex-lg-row p-4">
 
         <div class="card" style="width: 18rem;">
-          <img src="../img/marathon.jpg" class="card-img-top" alt="marathon">
+          <img src="../img/cinema.jpg" class="card-img-top" alt="cinema">
           <div class="card-body">
-            <h5 class="card-title">Marathon 5k</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="card-title">Avengers</h5>
+            <p class="card-text">Marvel's Avengers 3d premiere the start of an epic saga with your best superheroes</p>
             <div class="d-flex justify-content-between align-items-center">
               <p class="detail-p">Price</p>
-              <a href="#" class="btn btn-primary">Details</a>
+              <a href="../pages/details.html" class="btn btn-primary">Details</a>
             </div>
           </div>
         </div>
@@ -124,35 +138,23 @@
         <div class="card" style="width: 18rem;">
           <img src="../img/costume_party.jpg" class="card-img-top" alt="costume party">
           <div class="card-body">
-            <h5 class="card-title">Costume Party</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="card-title">Halloween Night</h5>
+            <p class="card-text">Come in your scariest costume character to win amazing prizes.</p>
             <div class="d-flex justify-content-between align-items-center">
               <p class="detail-p">Price</p>
-              <a href="#" class="btn btn-primary">Details</a>
+              <a href="../pages/details.html" class="btn btn-primary">Details</a>
             </div>
           </div>
         </div>
 
-        <div class="card" style="width: 18rem;">
-          <img src="../img/books.jpg" class="card-img-top" alt="books">
+        <div class="card">
+          <img src="../img/music_concert.jpg" class="card-img-top" alt="music concert">
           <div class="card-body">
-            <h5 class="card-title">Book Store</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="card-title">Metallica in concert</h5>
+            <p class="card-text flex-grow-1">The only concert of the most emblematic band in the world.</p>
             <div class="d-flex justify-content-between align-items-center">
               <p class="detail-p">Price</p>
-              <a href="#" class="btn btn-primary">Details</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-          <img src="../img/cinema.jpg" class="card-img-top" alt="cinema">
-          <div class="card-body">
-            <h5 class="card-title">Cinema Classics</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <div class="d-flex justify-content-between align-items-center">
-              <p class="detail-p">Price</p>
-              <a href="#" class="btn btn-primary">Details</a>
+              <a href="../pages/details.html" id="details-4" class="btn btn-primary">Details</a>
             </div>
           </div>
         </div>

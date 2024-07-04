@@ -1,18 +1,43 @@
+/* 
 const btnDetails = document.getElementById('details-1')
 const imgDetails = document.getElementById('details-img')
 const txtDetails = document.getElementById('details-data')
 
 // const url = 'http://127.0.0.1:5500/data/data.txt'
-const url = 'http://api.weatherunlocked.com/api/current/ar.B1870?app_id=b46e9457&app_key=c2c57f58ad22962db0b49d68e5e1f608'
+const url = 'https://rickandmortyapi.com/api/character/2'
 
-const calling = () => {
-  fetch(url)
+const calling = async () => {
+  try{
+    await fetch(url)
     .then(res => res.json())
     .then(data => {
-        console.log(data)
-        txtDetails.innerText = JSON.stringify("Temperatura: " + data.temp_c + " grados C°" + " y Humedad: " + data.humid_pct + "%")      
+      const characterData = {
+        name: data.name,
+        status: data.status,
+        species: data.species
+      }
+      localStorage.setItem('characterData', JSON.stringify(characterData))
+      window.location.href = '../pages/details.html'
   })
-  .catch((error) => console.error('Error:', error));
+  }
+  catch(error) {
+    console.error('Error:', error)
+  }
 }
 
-btnDetails.addEventListener('click', calling)
+window.onload = function () {
+  const characterData = JSON.parse(localStorage.getItem('characterData'))
+  if (characterData) {
+    txtDetails.innerHTML = `
+      <p>Name: ${characterData.name}</p>
+      <p>Status: ${characterData.status}</p>
+      <p>Species: ${characterData.species}</p>
+  `
+  } else {
+    const detailsDiv = document.getElementById('details-data')
+    detailsDiv.innerHTML = '<p>No character data found.</p>'
+  }
+}
+
+btnDetails.addEventListener('click', calling) 
+*/
