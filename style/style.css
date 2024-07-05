@@ -23,7 +23,7 @@ body{
 }
 
 .carousel-inner{
-  height: 60vh;
+  height: 40vh;
 }
 
 .c-img{
@@ -120,3 +120,12 @@ td{
   font-size: 1.2rem;
 
 }
+
+/*  ***  */
+
+/* .asd{
+  position: absolute;
+  z-index: 1;
+  top: 40%;
+  left: 40%;
+} */
