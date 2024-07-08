@@ -106,14 +106,23 @@ td{
   gap: 5px;
 }
 
+.details-img{
+  width: 60%;
+  height: 50vh;
+}
+
 .details-img img{
   border-radius: 10px;
   box-shadow: 0px 0px 20px gray;
+  min-width: 15rem;
 }
 
 .details-data{
   background-color: white;
   border-radius: 10px;
+  width: 40%;
+  min-width: 15rem;
+  height: 48vh;
 }
 
 .details-data span{
