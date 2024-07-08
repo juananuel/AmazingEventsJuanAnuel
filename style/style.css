@@ -43,6 +43,7 @@ body{
 .card{
   width: 18rem;
   height: 25rem;
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.4);
 }
 
 .detail-p{
@@ -63,25 +64,6 @@ body{
   font-family: "Gruppo", sans-serif;
 }
 
-/*  upcoming events  */
-/*  past events  */
-
-/*  contact  */
-
-.contact__form{
-  max-width: 600px;
-  margin: 50px auto;
-  border: 2px solid white;
-  border-radius: 10px;
-}
-
-.contact-h2{
-  padding: 50px 0px 0px;
-  font-family: "Indie Flower", cursive;
-  font-weight: 600;
-  color: #005;
-}
-
 .form-search{
   width: 35px;
   height: 35px;
@@ -90,14 +72,16 @@ body{
   border: none;
 }
 
-/*  stats  */
+/*  contact  */
 
-.stats-h2{
-  padding: 50px 0px 0px;
-  font-family: "Indie Flower", cursive;
-  font-weight: 600;
-  color: #005;
+.contact__form{
+  max-width: 600px;
+  margin: 50px auto;
+  border: 1px solid white;
+  border-radius: 10px;
 }
+
+/*  stats  */
 
 .table{
   max-width: 1200px;
@@ -114,8 +98,9 @@ td{
 /*  details  */
 
 .details-div{
+  background-color: rgba(0, 0, 0, .1);
   max-width: 1000px;
-  border: 2px solid white;
+  border: 1px solid black;
   border-radius: 5px;
   margin-top: 50px;
   gap: 5px;
@@ -126,16 +111,21 @@ td{
   box-shadow: 0px 0px 20px gray;
 }
 
+.details-data{
+  background-color: white;
+  border-radius: 10px;
+}
+
 .details-data span{
   font-weight: bold;
 }
 
 .details-data li{
-  list-style: circle;
+  list-style: none;
 }
 
 .details-data p{
-  font-size: 1.2rem;
-
+  font-size: 1.7rem;
+  font-family: "Gruppo", sans-serif;
 }
 
