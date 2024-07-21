@@ -42,8 +42,13 @@ body{
 
 .card{
   width: 18rem;
-  height: 25rem;
+  height: 35rem;
   box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.4);
+}
+
+.card img{
+  height: 230px;
+  object-fit: cover;
 }
 
 .detail-p{
