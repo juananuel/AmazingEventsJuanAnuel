@@ -22,6 +22,10 @@ body{
   padding: 5px 10px;
 }
 
+.nav-item{
+  
+}
+
 .carousel-inner{
   height: 40vh;
 }
@@ -42,12 +46,12 @@ body{
 
 .card{
   width: 18rem;
-  height: 35rem;
+  height: 25rem;
   box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.4);
 }
 
 .card img{
-  height: 230px;
+  height: 180px;
   object-fit: cover;
 }
 
