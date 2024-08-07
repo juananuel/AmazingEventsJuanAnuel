@@ -6,7 +6,6 @@ for (let i = 0; i < data.events.length; i++) {
   let c = data.events
   
   card.innerHTML = `
-
       <img src="${c[i].image}" class="card-img-top pt-2 px-2" alt="${c[i].name}">
       <div class="card-body d-flex flex-column justify-content-between">
         <div>
