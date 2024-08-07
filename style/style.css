@@ -4,12 +4,18 @@
   background-color: rgba(0, 0, 0, .5);
 }
 
+.body{
+  background-color: rgba(230, 230, 230, 1);
+}
+
 .footer{
   background-color: rgba(0, 0, 0, .6);
 }
 
-body{
-  background-color: rgba(230, 230, 230, 1);
+.container__home{
+  display: grid;
+  min-height: 100dvh;
+  grid-template-rows: auto 1fr auto;
 }
 
 .rrss-img:hover{
@@ -69,12 +75,24 @@ body{
   font-family: "Gruppo", sans-serif;
 }
 
+.form-control{
+  width: 200px;
+}
+
 .form-search{
   width: 35px;
   height: 35px;
   background-color: #fff;
   border-radius: 5px;
   border: none;
+}
+
+.no-results{
+  border-radius: 7px;
+}
+
+.checkbox-label{
+  width: 190px;
 }
 
 /*  contact  */
